@@ -21,6 +21,6 @@ Both controllers were tested using the Postman application to ensure that all of
 
 #### MockTests
 
-Mock tests were used to further ensure that all of the methods in the controllers were working as intended. Mock testing has a range of benefits, one of which is to allow developers to isolate a particular class and allowing them to test it without having to worry of the class's external dependencies affecting the test results.
+Mock tests were used to further ensure that all of the methods in the controllers were working as intended. Mock testing has a range of benefits, one of which is to allow developers to isolate a particular class and test it without having to worry of the external dependencies the class may be dependent on affecting the test results.
 
 ![TodoTest](https://github.com/sarkerJ/RESTfulAPI/blob/main/MockTest.JPG)
