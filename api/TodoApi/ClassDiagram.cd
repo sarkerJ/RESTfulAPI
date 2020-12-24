@@ -32,11 +32,36 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="TodoApi.Controllers.PeopleController">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAABAAAAAAAgAAAAAAAJIAAAAAAAAgAAAE=</HashCode>
+      <FileName>Controllers\PeopleController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_context" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TodoApi.Services.PersonService">
+    <Position X="11" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABEAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\PersonService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Interface Name="TodoApi.Interfaces.ITodoService">
     <Position X="6" Y="2.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAEAAAAEAIAAAAAAACAAAABAAAAAAAAAAAEAA=</HashCode>
       <FileName>Interfaces\ITodoService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TodoApi.Interfaces.IPersonService">
+    <Position X="9.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IPersonService.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />
