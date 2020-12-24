@@ -3,11 +3,11 @@ A RESTful API application built using Visual Studio, ASP.NET, C#, SQL.
 
 ### Project Goal
 
-The goal of this project was to create a simple RESTful Application with simple CRUD *(Create, Read, Update, Delete)* functionalities so that I could get a better of  APIs and the range of methods and syntaxes that are required in order to do so.
+The goal of this project was to create a simple RESTful Application with CRUD *(Create, Read, Update, Delete)* functionalities so that I could get a better understanding of how APIs work and the range of methods and syntaxes that are required in order to do so.
 
 #### Class Diagram
 
-The class diagram below provides a quick overview of the two main controllers that were used. By looking at the image you will notice that one of the controller was refactored to include a service layer. The reason behind this was to implement the **D** in SOLID (Dependency Inversion) as well as to enable the use of **Mocks** to test the class. Due to time constraint the second controller was not fully refactored, furthermore having gained a better understanding from the first controller the refactoring of the second controller was not high up in the priority list. 
+The class diagram below provides a quick overview of the two main controllers that were used. By looking at the image you will notice that one of the controllers was refactored to include a service layer. The reason behind this was to implement the **D** in the SOLID principles (Dependency Inversion) as well as to enable the use of **Mocks** to test the class. Due to time constraint the second controller was not fully refactored, however having gained a better understanding from the first controller the refactoring of the second controller was not set as one of the major tasks to complete. 
 
 ![classDiagram](https://github.com/sarkerJ/RESTfulAPI/blob/main/Classdiagram.JPG)
 
